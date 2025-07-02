@@ -14,7 +14,7 @@ public class Main {
                 case 'd': cur += 10; break;
                 case 'a': cur -= 10; break;
                 default:
-                    // 정의되지 않은 명령어는 무시하거나 예외 처리할 수 있습니다.
+                    // 정의되지 않은 명령어는 무시하거나 예외 처리할 수 있습니다..
                     throw new IllegalArgumentException("Invalid command: " + c);
             }
         }
